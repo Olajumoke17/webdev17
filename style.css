@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: montserrat-bold;
+    
+    background-color: rgb(191, 238, 191);
+    
+}
+
+body {
+    padding: 1rem 9rem;
+}
+
+.navbar{
+    margin-top: 2rem;
+    gap: 4rem;
+    display: flex;
+    align-self: center;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+    .container{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+    /* /.line{
+        border-top: 1px;
+    } */
+
+.image img{ 
+    height: 600px; 
+     width: 600px; 
+    /* float: left;  */
+    margin-left: 30px;  
+ }
+.icons {
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+
+
+ .icons img{
+    width: 20px;
+    height: 20px;
+    
+ }
+
+ .description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .main {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }
+
+ .content {
+    margin-top: 1rem;
+ }
+
+ .content h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }
+
+ #bgColor {
+    background: aliceblue;
+ }
+
+ .contents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+ }
+.picture img{
+    height: 400px;
+    width: 400px;
+}
+.summary{
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+/* my laptop imge code begins from here */
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.pictures img{
+    height: 200px;
+    width: 200px;
+    padding-left: 20px;
+}
+.pictures{
+    border: 1px solid ;
+    /* width: 200px; */
+    padding: 20px;
+    margin: 20px;
+    padding-right: 10px;
+   
+}
+
+.second img{
+    height: 200px;
+    width: 200px;
+    padding-left: 20px;
+
+
+}
+.second{
+   
+        border: 10px solid ;
+        width: 200px;
+        padding: 20px;
+        margin: 20px;
+        padding-right: 10px;
+}
+/* .box{
+    border: 1px solid red;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+} */
+
+.web--creation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 3rem;
+    
+   
+}
+
+.web--image {
+    outline: 1px solid rgb(203, 122, 17);
+}
+
+.web--image img{
+    width: 420px;
+    height: 300px;
+    
+}
+
+.web-icons img{
+width: 20px;
+height: 20px;
+}
+
+.web--content,
+.web-icons {
+    padding: 0 30px;
+}
+
